@@ -10,11 +10,15 @@ Aplikasi ini dibuat menggunakan **Java dan JavaFX** dengan tampilan yang simpel 
 
 ## Tampilan Aplikasi
 
-### Halaman Awal dan Katalog Produk
+### Halaman Form Tambah Produk
 
-Halaman utama aplikasi yang berisi form untuk menambahkan produk dan katalog produk yang sudah tersimpan. Setiap produk ditampilkan dalam bentuk kartu yang berisi foto, nama, harga, dan ID produk.
+Halaman utama aplikasi yang berisi form untuk menambahkan produk.
 
 ![Halaman Form Produk](TampilanAwal.png)
+
+### Halaman Katalog Produk
+
+Halaman yang berisi katalog produk yang sudah tersimpan. Setiap produk ditampilkan dalam bentuk kartu yang berisi foto, nama, harga, dan ID produk.
 
 ![Halaman Katalog Produk](TampilanKatalog.png)
 
@@ -22,7 +26,11 @@ Halaman utama aplikasi yang berisi form untuk menambahkan produk dan katalog pro
 
 Form akan terisi secara otomatis dengan informasi produk yang dipilih. Anda dapat mengubah nama, harga, atau foto produk, lalu menyimpan perubahan. Tersedia juga tombol **Batal** untuk membatalkan proses edit.
 
+#### Sebelum Diedit
+
 ![Halaman Sebelum Diedit](ActionEdit.png)
+
+#### Setelah Diedit
 
 ![Halaman Setelah Diedit](AfterEdit.png)
 
@@ -30,7 +38,11 @@ Form akan terisi secara otomatis dengan informasi produk yang dipilih. Anda dapa
 
 Sebelum produk dihapus, aplikasi akan menampilkan dialog konfirmasi agar produk tidak terhapus secara tidak sengaja.
 
+#### Sebelum Dihapus
+
 ![Konfirmasi Hapus Produk](ActionHapus.png)
+
+#### Setelah Dihapus
 
 ![Halaman Setelah Produk Terhapus](AfterHapus.png)
 
